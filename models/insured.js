@@ -10,11 +10,10 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Insured.belongsTo(models.User, { foreignKey: "userId" });
+      // define association here
     }
   }
   Insured.init({
-    userId: DataTypes.INTEGER,
     policyNumber: DataTypes.STRING,
     title: DataTypes.STRING,
     firstName: DataTypes.STRING,
