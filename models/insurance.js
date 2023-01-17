@@ -20,6 +20,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Insurance.init({
     name: DataTypes.STRING,
+    logo: DataTypes.STRING,
     maxMedExpensePerYear: DataTypes.FLOAT,
     maxMedExpensePerTime: DataTypes.FLOAT,
     normalPatientRoomExpense: DataTypes.FLOAT,

@@ -14,6 +14,10 @@ module.exports = {
         allowNull: false,
         unique: true,
       },
+      logo: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       maxMedExpensePerYear: {
         type: Sequelize.FLOAT,
         allowNull: false,
