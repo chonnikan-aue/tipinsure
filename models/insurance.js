@@ -15,6 +15,7 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "insuranceId",
         otherKey: "insuredId",
       });
+      Insurance.hasMany(models.Premium, { foreignKey: "insuranceId" });
     }
   }
   Insurance.init({
