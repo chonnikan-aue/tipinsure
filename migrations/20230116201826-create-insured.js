@@ -9,11 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      policyNumber: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        unique: true,
-      },
       title: {
         type: Sequelize.STRING,
         allowNull: false,
