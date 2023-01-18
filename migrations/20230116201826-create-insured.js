@@ -67,12 +67,15 @@ module.exports = {
       },
       beneficiaryTitle: {
         type: Sequelize.STRING,
+        defaultValue: null,
       },
       beneficiaryFirstName: {
         type: Sequelize.STRING,
+        defaultValue: null,
       },
       beneficiaryLastName: {
         type: Sequelize.STRING,
+        defaultValue: null,
       },
       healthQuestion1: {
         type: Sequelize.STRING,
@@ -88,6 +91,7 @@ module.exports = {
       },
       taxpayerNumber: {
         type: Sequelize.STRING,
+        defaultValue: null,
       },
       deliveryAddressHouseNumber: {
         type: Sequelize.STRING,

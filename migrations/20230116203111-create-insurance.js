@@ -32,6 +32,7 @@ module.exports = {
       },
       icuCcuPatientRoomExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       genMedExpense: {
         type: Sequelize.FLOAT,
@@ -43,33 +44,43 @@ module.exports = {
       },
       crfExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       cancerExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       ambulanceExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       normalPatientIncomeCompensateExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       icuCcuPatientIncomeCompensateExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       surgicalTreatmentExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       opdExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       deathOrPermanentDisabilityExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       healthCheckOrVaccineExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       dentistExpense: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       createdAt: {
         allowNull: false,

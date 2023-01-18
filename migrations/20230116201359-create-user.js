@@ -20,6 +20,7 @@ module.exports = {
       },
       referalCode: {
         type: Sequelize.STRING,
+        defaultValue: null,
       },
       createdAt: {
         allowNull: false,

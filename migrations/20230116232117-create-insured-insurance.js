@@ -21,6 +21,7 @@ module.exports = {
         },
         userId: {
           type: Sequelize.INTEGER,
+          defaultValue: null,
         },
         policyNumber: {
           type: Sequelize.STRING,

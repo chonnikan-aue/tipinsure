@@ -23,6 +23,7 @@ module.exports = {
       },
       nonCovidPremium: {
         type: Sequelize.FLOAT,
+        defaultValue: null,
       },
       createdAt: {
         allowNull: false,
