@@ -14,7 +14,8 @@ module.exports = (sequelize, DataTypes) => {
   Premium.init(
     {
       insuranceId: DataTypes.INTEGER,
-      ageRange: DataTypes.STRING,
+      minAge: DataTypes.INTEGER,
+      maxAge: DataTypes.INTEGER,
       premium: DataTypes.FLOAT,
       nonCovidPremium: DataTypes.FLOAT,
     },
