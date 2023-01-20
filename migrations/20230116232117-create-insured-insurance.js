@@ -32,6 +32,10 @@ module.exports = {
           type: Sequelize.FLOAT,
           allowNull: false,
         },
+        covidProtect: {
+          type: Sequelize.BOOLEAN,
+          allowNull: false,
+        },
         startDate: {
           type: Sequelize.DATEONLY,
           allowNull: false,

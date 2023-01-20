@@ -22,6 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       userId: DataTypes.INTEGER,
       policyNumber: DataTypes.STRING,
       premium: DataTypes.FLOAT,
+      covidProtect: DataTypes.BOOLEAN,
       startDate: DataTypes.DATEONLY,
       expiredDate: DataTypes.DATEONLY,
     },

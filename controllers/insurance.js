@@ -56,6 +56,39 @@ const getInsurancesByAge = (req, res) => {
     });
 };
 
+const getInsuranceById = (req, res) => {
+  Insurance.findByPk(req.params.insuranceId, {
+    attributes: [
+      "id",
+      "name",
+      "logo",
+      "maxMedExpensePerYear",
+      "maxMedExpensePerTime",
+      "normalPatientRoomExpense",
+      "icuCcuPatientRoomExpense",
+      "genMedExpense",
+      "emergencyMedExpense",
+      "crfExpense",
+      "cancerExpense",
+      "ambulanceExpense",
+      "normalPatientIncomeCompensateExpense",
+      "icuCcuPatientIncomeCompensateExpense",
+      "surgicalTreatmentExpense",
+      "opdExpense",
+      "deathOrPermanentDisabilityExpense",
+      "healthCheckOrVaccineExpense",
+      "dentistExpense",
+    ],
+  })
+    .then((insurance) => {
+      res.json(insurance);
+    })
+    .catch((err) => {
+      res.json(err);
+    });
+};
+
 module.exports = {
   getInsurancesByAge,
+  getInsuranceById,
 };

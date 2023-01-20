@@ -33,6 +33,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      email: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       addressHouseNumber: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -54,10 +58,6 @@ module.exports = {
         allowNull: false,
       },
       addressZipCode: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      email: {
         type: Sequelize.STRING,
         allowNull: false,
       },
