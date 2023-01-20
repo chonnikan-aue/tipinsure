@@ -5,5 +5,16 @@
     "database": "tipinsure",
     "host": "127.0.0.1",
     "dialect": "postgres"
+  },
+  "production": {
+    "username": "chonnikan-aue",
+    "password": "v2_3yBNg_3uFudPRtbpm7WFXmxWmmFdz",
+    "database": "chonnikan-aue/tipinsure",
+    "host": "db.bit.io",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   }
 }
