@@ -25,7 +25,7 @@ module.exports = {
         },
         premium: {
           type: Sequelize.FLOAT,
-          allowNull: false,
+          defaultValue: null,
         },
         nonCovidPremium: {
           type: Sequelize.FLOAT,
