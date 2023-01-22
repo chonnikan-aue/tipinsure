@@ -25,7 +25,7 @@ module.exports = {
           insuranceId: 4,
           userId: 1,
           policyNumber: "TIP" + Math.floor(Math.random() * 9999999999),
-          premium: 20620,
+          premium: 25775,
           covidProtect: true,
           startDate: "01-19-2023",
           expiredDate: "01-18-2024",

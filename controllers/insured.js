@@ -114,6 +114,7 @@ const postInsured = (req, res) => {
               "userId",
               "policyNumber",
               "premium",
+              "covidProtect",
               "startDate",
               "expiredDate",
             ],
