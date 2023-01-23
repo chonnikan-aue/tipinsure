@@ -9,7 +9,7 @@
 
 - **For designing wire frames:** [wireframe.cc](https://wireframe.cc/)
 
-- **For fontend:** [Tipinsure](https://github.com/chonnikan-aue/tipinsure-client/)
+- **For fontend:** React.js ([Tipinsure](https://github.com/chonnikan-aue/tipinsure-client/))
 
 - **For backend:** Express, Postgresql
 
